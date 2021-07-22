@@ -1,0 +1,72 @@
+#logo{
+    width: 60px;
+}
+.nav-item a{
+    font-size: 20px;
+    font-weight:800;
+    font-size: 21px;
+    margin-right: 13px;
+}
+#how:hover{
+    color:darkorange;
+}
+#hero{
+    margin-top: 8%;
+}
+#navbarlinks{
+    margin-left: 27%;
+    letter-spacing: 3px;
+}
+#sambar{
+    width: 70%;
+}
+#description{
+    font-weight: 600;
+    font-size: 20px;
+}
+#para{
+    margin-top: 6%;
+}
+#para p{
+    font-size: 20px;
+}
+#btnone{
+    margin-left: 14%;
+}
+#btntwo{
+    margin-left: 5%;
+}
+#footer{
+    padding: 2% 15%;
+    text-align: center;
+}
+.footer-txt{
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+}
+.social-media{
+    width: 3%;
+    margin-right: 15px;     
+    margin-top: 40px;
+}
+.social-media:hover{
+    width: 40px;
+}
+@media (max-width:500px){
+    #hero{
+        margin-top: 20%;
+    }
+    iframe{
+        width: 320px;
+        height: 250px;
+    }
+    .social-media{
+        width: 8%;
+    } 
+    .footer-txt{
+        font-size: 15px;
+    }
+    #navbarlinks{
+        margin-left: 1px;
+    }    
+}
